@@ -169,15 +169,15 @@
   align-items: flex-end;
   position: relative;
 
-  img:nth-child(1) {
-    width: 65%;
-    margin: auto;
-  }
-
   img {
     width: 100%;
     object-fit: contain;
     z-index: 1;
+  }
+
+  img:nth-child(1) {
+    width: 65%;
+    margin: auto;
   }
 
   .overlay_circle {
